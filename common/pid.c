@@ -34,7 +34,7 @@
 
 #include "common/pid.h"
 
-npid_t PID;
+extern npid_t PID;
 
 void init_common_PID (void) {
   if (!PID.pid) {
